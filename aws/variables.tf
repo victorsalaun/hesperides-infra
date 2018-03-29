@@ -6,7 +6,19 @@ variable "aws_region" {
   default = "eu-west-3"
 }
 
+# beanstalk
+
 # https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.platforms.html#concepts.platforms.docker
 variable "aws_beanstalk_docker_stackname" {
   default = "64bit Amazon Linux 2017.09 v2.9.1 running Docker 17.12.0-ce"
+}
+
+# elasticsearch
+
+variable "aws_elasticsearch_instance_type" {
+  default = "t2.small.elasticsearch"
+}
+
+variable "aws_elasticsearch_version" {
+  default = "1.5"
 }
