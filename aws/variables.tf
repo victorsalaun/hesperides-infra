@@ -10,7 +10,7 @@ variable "aws_region" {
 
 # https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.platforms.html#concepts.platforms.docker
 variable "aws_beanstalk_docker_stackname" {
-  default = "64bit Amazon Linux 2017.09 v2.9.1 running Docker 17.12.0-ce"
+  default = "64bit Amazon Linux 2017.09 v2.9.2 running Docker 17.12.0-ce"
 }
 
 # elasticsearch
