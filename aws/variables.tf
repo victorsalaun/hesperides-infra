@@ -22,3 +22,13 @@ variable "aws_elasticsearch_instance_type" {
 variable "aws_elasticsearch_version" {
   default = "1.5"
 }
+
+# redis
+
+variable "aws_redis_version" {
+  default = "2.8.24"
+}
+
+variable "aws_redis_node_type" {
+  default = "cache.t2.micro"
+}
