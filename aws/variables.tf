@@ -20,7 +20,7 @@ variable "aws_elasticsearch_instance_type" {
 }
 
 variable "aws_elasticsearch_version" {
-  default = "1.5"
+  default = "6.2"
 }
 
 # redis
